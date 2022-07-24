@@ -1,10 +1,7 @@
 package com.bridgelabz.addressbookappdevelopement.dto;
 
-import jdk.jfr.DataAmount;
 import lombok.Data;
-
 @Data
-
 public class AddressBookDTO {
     public String firstName;
     public String lastName;
