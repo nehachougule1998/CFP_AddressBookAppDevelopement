@@ -19,7 +19,6 @@ public class AddressBookData {
     public AddressBookData() {
     }
 
-
     public AddressBookData(int personId, AddressBookDTO addressBookDTO) {
         this.personId = personId;
         this.firstName = addressBookDTO.firstName;
