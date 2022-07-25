@@ -14,13 +14,12 @@ import org.springframework.web.bind.annotation.*;
 public class AddressBookController {
     @Autowired
     AddressBookService addressBookService;
-
     @GetMapping(value = {"/get"})
     public ResponseEntity<ResponseDTO> getAddressBookData() {
         AddressBookData addressBookData = new AddressBookData(1,new AddressBookDTO("Neha",
                 "Chougule","9657475633", "nehach23@gmail.com","Jain mandir",
                 "Sangli","Maharashtra",416308));
-        ResponseDTO responseDTO = new ResponseDTO("Success Call!!!",addressBookData);
+       ResponseDTO responseDTO = new ResponseDTO("Success Call!!!",addressBookData);
         return new ResponseEntity<>(responseDTO, HttpStatus.OK);
     }
 
