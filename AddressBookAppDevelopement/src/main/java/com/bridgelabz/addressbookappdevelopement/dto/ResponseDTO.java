@@ -10,7 +10,6 @@ public class ResponseDTO {
         this.message = message;
         this.data = data;
     }
-
     public String getMessage() {
         return message;
     }
