@@ -26,25 +26,25 @@ public class AddressBookData {
     public AddressBookData() {
     }
 
-    public AddressBookData(AddressBookDTO addressBookDTO) {
-        this.firstName = addressBookDTO.firstName;
-        this.lastName = addressBookDTO.lastName;
-        this.phoneNumber = addressBookDTO.phoneNumber;
-        this.email = addressBookDTO.email;
-        this.address = addressBookDTO.address;
-        this.city = addressBookDTO.city;
-        this.state = addressBookDTO.state;
-        this.zip = addressBookDTO.zip;
-    }
+//    public AddressBookData(AddressBookDTO addressBookDTO) {
+//        this.firstName = addressBookDTO.firstName;
+//        this.lastName = addressBookDTO.lastName;
+//        this.phoneNumber = addressBookDTO.phoneNumber;
+//        this.email = addressBookDTO.email;
+//        this.address = addressBookDTO.address;
+//        this.city = addressBookDTO.city;
+//        this.state = addressBookDTO.state;
+//        this.zip = addressBookDTO.zip;
+//    }
 
-    public void updateData(AddressBookDTO addressBookDTO) {
-        this.firstName = addressBookDTO.firstName;
-        this.lastName = addressBookDTO.lastName;
-        this.phoneNumber = addressBookDTO.phoneNumber;
-        this.email = addressBookDTO.email;
-        this.address = addressBookDTO.address;
-        this.city = addressBookDTO.city;
-        this.state = addressBookDTO.state;
-        this.zip = addressBookDTO.zip;
-    }
+//    public void updateData(AddressBookDTO addressBookDTO) {
+//        this.firstName = addressBookDTO.firstName;
+//        this.lastName = addressBookDTO.lastName;
+//        this.phoneNumber = addressBookDTO.phoneNumber;
+//        this.email = addressBookDTO.email;
+//        this.address = addressBookDTO.address;
+//        this.city = addressBookDTO.city;
+//        this.state = addressBookDTO.state;
+//        this.zip = addressBookDTO.zip;
+//    }
 }
